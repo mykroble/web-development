@@ -1,0 +1,25 @@
+.nav-item {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+.nav-item:hover {
+    background-color: #9f9f9f; /* Change background color on hover */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  .nav-item img {
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+  }
+  .nav-item:hover img {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+.active {
+    background-color: #cbcbcb;
+    border-radius: 5px;
+}
+
+.backgroun {
+    background-color: rgb(78, 116, 242);
+}
+
+
